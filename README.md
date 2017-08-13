@@ -1,6 +1,10 @@
 # Strange document and demo here.
 给Strange单独出来一个储存学习笔记和页面DEMO的地方。  
 
+## DEMO展示
+* [HOME页面](DEMO/home.html)
+
+
 ## 资料和一些备忘
 * [pushState 和 ajax](dummy)  
 
