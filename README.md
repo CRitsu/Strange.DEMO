@@ -1,11 +1,15 @@
-# Strange document and demo here.
+# Strange documents and demo here.
 给Strange单独出来一个储存学习笔记和页面DEMO的地方。  
 
 ## DEMO展示
-* [HOME页面](DEMO/home.html)
+
+* [HOME页面](DEMO/home.html)  
+
+一个静态页面的展示。
 
 
 ## 资料和一些备忘
+
 * [pushState 和 ajax](dummy)  
 
 这里打算用pushState和ajax实现无刷单页网站。  
@@ -17,4 +21,5 @@
 
 
 ## HTML头部导入顺序
+
 * [参照文件](DEMO/head.md)
