@@ -33,3 +33,7 @@
 ## HTML头部导入顺序
 
 * [参照文件](DEMO/head.md)
+
+## Timestamp
+
+* [getTime](TEMP/getTime.html)
