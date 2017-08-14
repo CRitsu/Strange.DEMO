@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getTime</title>
+    <style type="text/css">
+        html,body,input {
+            width: 100%;
+            text-align: center;
+            height: 200px;
+        }
+    </style>
+</head>
+<body onload="load()">
+    <input id="in">
+    <input id="fresh" type="button" value="fresh the time">
+<script>
+    var id = document.getElementById("in");
+    var fresh = document.getElementById("fresh");
+    function load () {
+        id.value = new Date().toLocaleString();
+        id.onclick = function () {
+                id.select();
+                document.execCommand("copy");
+            };
+        fresh.onclick = function () {
+            id.value = new Date().toLocaleString();
+        };
+    };
+</script>
+</body>
+</html>
